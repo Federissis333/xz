@@ -25,8 +25,8 @@ module.exports = {
     const embed = new EmbedBuilder()
       .setTitle('Painel de Configuração')
       .setDescription('Configure Token, ID e Limpar DM.\nLimpar DM só funciona após configurar Token e ID.')
-      .setImage('https://i.imgur.com/S61CRkg.png'
-      .setColor('Blue');
+      .setImage('https://i.imgur.com/S61CRkg.png')
+      .setColor('DarkGrey');
 
     const buttons = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
